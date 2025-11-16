@@ -23,9 +23,6 @@ def get_api_key():
 
 api_key = get_api_key()
 
-
-# os.environ["OPENAI_API_KEY"] = "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"
-
 client = OpenAI(api_key=api_key)
 # ----- CONFIG -----
 st.set_page_config(page_title="Proposal Form Filler", page_icon="🤖", layout="centered")
